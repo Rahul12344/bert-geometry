@@ -1,0 +1,34 @@
+project: bert-geometry
+data-directory-local: /Users/rahulnatarajan/Dropbox/geometry_data/
+data-directory-ec2: /home/ubuntu/Dropbox/geometry_data
+
+# scale
+scale: False
+
+# subset sizes
+start_data_samples: 0
+max_data_samples: 10
+
+# log normalize
+log_normalize: False
+
+# square root normalize
+sqrt_normalize: False
+
+# logits
+logits: False
+
+# elu
+elu: False
+
+# batch size
+batch_size: 16
+
+# Max rank: 1024
+matrix_rank: 512
+layer_size: 1024
+
+sentence_dir: sentences/
+images_dir: images/
+word_senses_dir: word_sense/
+
